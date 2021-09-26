@@ -8,9 +8,9 @@ jobs:
     steps:
       - name: Checks out your repository
         uses: actions/checkout@v2
-      - name: Install dependencies
-        run: |
-          pip install poetry 
-          make install
+      - name: Install poetry
+        run: pip install poetry
+      - name: Install project
+        run: make install
       - name: Start linter
         run: make lint
