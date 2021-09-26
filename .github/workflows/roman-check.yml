@@ -1,8 +1,12 @@
 name: roman-check
-on: push
+on: 
+  - push
+  - pull_request
 jobs:
-  my-job:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: checks out your repository
+        uses: actions/checkout@v2
+      - name: start linter
         run: python3 -m flake8 brain_games
