@@ -9,7 +9,7 @@ jobs:
       - name: Checks out your repository
         uses: actions/checkout@v2
       - name: Install dependencies
-        run:
+        run: |
           pip install poetry 
           make install
       - name: Start linter
