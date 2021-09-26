@@ -6,7 +6,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checks out your repository
+      - name: Checks out your repository
         uses: actions/checkout@v2
-      - name: start linter
-        run: python3 -m flake8 brain_games
+      - name: Install dependencies
+        run: make install
+      - name: Start linter
+        run: make lint
