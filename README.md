@@ -11,4 +11,7 @@
 [![asciicast](https://asciinema.org/a/438405.svg)](https://asciinema.org/a/438405)
 
 ### Example Brain-calc
-<a href="https://asciinema.org/a/2D4ivWtbBo38dKUws94EJzcST" target="_blank"><img src="https://asciinema.org/a/2D4ivWtbBo38dKUws94EJzcST.svg" /></a>
+[![asciicast](https://asciinema.org/a/438635.svg)](https://asciinema.org/a/438635)
+
+### Example Brain-gcd
+[![asciicast](https://asciinema.org/a/438701.svg)](https://asciinema.org/a/438701)

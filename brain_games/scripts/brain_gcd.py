@@ -2,7 +2,7 @@
 
 
 from brain_games.games.logic import game_logic
-from brain_games.games.calc import tutorial, game
+from brain_games.games.gcd import tutorial, game
 
 
 def main():
