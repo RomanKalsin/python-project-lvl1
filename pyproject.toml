@@ -1,11 +1,16 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Study project"
 authors = ["RomanKalsin <karen52rus@gmail.com>"]
 packages = [
 	{include = "brain_games" },
 ]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+repository = "https://github.com/RomanKalsin/python-project-lvl1"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
