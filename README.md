@@ -15,3 +15,6 @@
 
 ### Example Brain-gcd
 [![asciicast](https://asciinema.org/a/438701.svg)](https://asciinema.org/a/438701)
+
+### Example Brain-progression
+[![asciicast](https://asciinema.org/a/438802.svg)](https://asciinema.org/a/438802)
