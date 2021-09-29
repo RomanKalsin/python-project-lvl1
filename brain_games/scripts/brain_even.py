@@ -28,3 +28,7 @@ def brain_even(name):
         i += 1
     else:
         print("Congratulations, {}!".format(name))
+
+
+if __name__ == "__main__":
+    main()

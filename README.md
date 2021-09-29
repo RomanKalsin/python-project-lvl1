@@ -18,3 +18,6 @@
 
 ### Example Brain-progression
 [![asciicast](https://asciinema.org/a/438802.svg)](https://asciinema.org/a/438802)
+
+### Example Brain-prime
+[![asciicast](https://asciinema.org/a/438817.svg)](https://asciinema.org/a/438817)
